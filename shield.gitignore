@@ -1,0 +1,17 @@
+# Windows
+Thumbs.db
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# JetBrains IDEs
+.idea/
+
+# Logs
+*.log
+
+# Node packages (for future use)
+node_modules/
