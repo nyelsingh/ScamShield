@@ -1,0 +1,284 @@
+/* ======================================================
+   ScamShield Popup UI
+   Version: 2.0
+   ====================================================== */
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    margin: 0;
+
+    width: 360px;
+
+    min-height: 520px;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+    background:
+        #0f172a;
+
+    color: white;
+
+}
+
+
+
+.container {
+
+    padding: 18px;
+
+}
+
+
+
+/* ================= HEADER ================= */
+
+
+header {
+
+    text-align: center;
+
+    margin-bottom: 18px;
+
+}
+
+
+.logo {
+
+    font-size: 22px;
+
+    font-weight: 700;
+
+}
+
+
+.tagline {
+
+    margin-top: 5px;
+
+    font-size: 13px;
+
+    color: #94a3b8;
+
+}
+
+
+
+/* ================= WEBSITE ================= */
+
+
+.website-card {
+
+    background: #1e293b;
+
+    padding: 12px;
+
+    border-radius: 12px;
+
+    margin-bottom: 14px;
+
+}
+
+
+
+.website-card h3 {
+
+    margin: 0;
+
+    font-size: 13px;
+
+    color: #94a3b8;
+
+}
+
+
+.website-card p {
+
+    margin: 8px 0 0;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    overflow-wrap: break-word;
+
+}
+
+
+
+/* ================= SCORE ================= */
+
+
+.score-card {
+
+    text-align: center;
+
+    background: #1e293b;
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    margin-bottom: 15px;
+
+}
+
+
+
+#score {
+
+    font-size: 48px;
+
+    font-weight: 800;
+
+}
+
+
+
+#status {
+
+    margin-top: 8px;
+
+    font-size: 16px;
+
+}
+
+
+
+/* ================= CHECKS ================= */
+
+
+.checks {
+
+    background: #1e293b;
+
+    border-radius: 12px;
+
+    padding: 12px;
+
+}
+
+
+
+.checks h3 {
+
+    margin-top: 0;
+
+    font-size: 15px;
+
+}
+
+
+
+.check {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 10px 0;
+
+    border-bottom: 1px solid #334155;
+
+    font-size: 14px;
+
+}
+
+
+
+.check:last-child {
+
+    border-bottom: none;
+
+}
+
+
+
+.check span {
+
+    color: #cbd5e1;
+
+    font-size: 13px;
+
+}
+
+
+
+/* ================= BUTTONS ================= */
+
+
+button {
+
+    width: 100%;
+
+    border: none;
+
+    border-radius: 10px;
+
+    padding: 13px;
+
+    margin-top: 14px;
+
+    cursor: pointer;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    background:
+
+        #2563eb;
+
+    color: white;
+
+}
+
+
+
+button:hover {
+
+    background:
+
+        #1d4ed8;
+
+}
+
+
+
+button:disabled {
+
+    opacity: 0.6;
+
+    cursor: not-allowed;
+
+}
+
+
+
+/* ================= FOOTER ================= */
+
+
+.footer {
+
+    margin-top: 15px;
+
+    text-align: center;
+
+    font-size: 12px;
+
+    color: #94a3b8;
+
+}

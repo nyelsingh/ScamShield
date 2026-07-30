@@ -1,0 +1,295 @@
+/* ======================================================
+   ScamShield Security Report UI
+   Version: 2.0
+   ====================================================== */
+
+
+* {
+
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+
+    margin: 0;
+
+    min-height: 100vh;
+
+    background: #0f172a;
+
+    color: white;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+
+}
+
+
+
+.container {
+
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 30px;
+
+}
+
+
+
+/* ================= HEADER ================= */
+
+
+header {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+
+header h1 {
+
+    font-size: 32px;
+
+    margin-bottom: 8px;
+
+}
+
+
+
+header p {
+
+    color: #94a3b8;
+
+}
+
+
+
+
+
+/* ================= CARDS ================= */
+
+
+section {
+
+    background: #1e293b;
+
+    border-radius: 16px;
+
+    padding: 20px;
+
+    margin-bottom: 20px;
+
+}
+
+
+
+h2 {
+
+    margin-top: 0;
+
+    font-size: 20px;
+
+}
+
+
+
+
+
+/* ================= WEBSITE ================= */
+
+
+#website {
+
+    font-size: 22px;
+
+    font-weight: bold;
+
+}
+
+
+
+#url {
+
+    color: #94a3b8;
+
+    word-break: break-all;
+
+}
+
+
+
+
+
+/* ================= SCORE ================= */
+
+
+.score-card {
+
+    text-align: center;
+
+}
+
+
+
+#score {
+
+    font-size: 70px;
+
+    font-weight: 800;
+
+}
+
+
+
+#status {
+
+    font-size: 22px;
+
+}
+
+
+
+
+
+/* ================= SUMMARY ================= */
+
+
+.summary div {
+
+    padding: 10px;
+
+    border-bottom:
+
+        1px solid #334155;
+
+}
+
+
+
+.summary div:last-child {
+
+    border-bottom: none;
+
+}
+
+
+
+
+
+/* ================= CHECK ITEMS ================= */
+
+
+.check-item {
+
+    background:
+
+        #334155;
+
+    border-radius: 12px;
+
+    padding: 15px;
+
+    margin-bottom: 12px;
+
+}
+
+
+
+.check-title {
+
+    font-size: 17px;
+
+    font-weight: bold;
+
+}
+
+
+
+.check-status {
+
+    margin-top: 5px;
+
+}
+
+
+
+.check-details {
+
+    margin-top: 10px;
+
+    color: #cbd5e1;
+
+}
+
+
+
+.check-recommendation {
+
+    margin-top: 10px;
+
+    color: #93c5fd;
+
+}
+
+
+
+
+
+/* ================= EMPTY STATE ================= */
+
+
+.empty {
+
+    color: #94a3b8;
+
+    text-align: center;
+
+}
+
+/* ===============================
+   Recommendation
+================================ */
+
+.recommendation-section{
+
+    margin-top:25px;
+
+}
+
+.recommendation-box{
+
+    margin-top:12px;
+
+    padding:16px;
+
+    border-radius:10px;
+
+    background:inherit;
+
+    color:white;
+
+    border-left:5pxsolid#22c55e;
+
+    font-size:15px;
+
+    font-weight: 500;
+
+    line-height:1.6;
+
+    white-space:normal;
+
+    word-wrap:break-word;
+
+    overflow-wrap:break-word;
+
+}

@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <title>ScamShield</title>
+
+    <link rel="stylesheet" href="popup.css">
+
+</head>
+
+
+<body>
+
+
+<div class="container">
+
+
+
+<!-- ==================================================
+     HEADER
+================================================== -->
+
+
+<header>
+
+
+    <div class="logo">
+
+        🛡️ ScamShield
+
+    </div>
+
+
+    <div class="tagline">
+
+        Know Before You Click
+
+    </div>
+
+
+</header>
+
+
+
+
+
+
+
+<!-- ==================================================
+     CURRENT WEBSITE
+================================================== -->
+
+
+<section class="website-card">
+
+
+<h3>
+
+Current Website
+
+</h3>
+
+
+
+<p id="website">
+
+Not Scanned
+
+</p>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ==================================================
+     SECURITY SCORE
+================================================== -->
+
+
+<section class="score-card">
+
+
+<div id="score">
+
+--
+
+</div>
+
+
+
+<div id="status">
+
+⚪ No Scan Available
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+
+<!-- ==================================================
+     SECURITY CHECKS
+================================================== -->
+
+
+<section class="checks">
+
+
+<h3>
+
+Security Checks
+
+</h3>
+
+
+
+
+
+
+<div class="check">
+
+
+<span>
+
+🔒 HTTPS Protection
+
+</span>
+
+
+<span id="httpsCheck">
+
+Waiting
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="check">
+
+
+<span>
+
+🌐 Domain Reputation
+
+</span>
+
+
+<span id="domainCheck">
+
+Waiting
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="check">
+
+
+<span>
+
+🔗 URL Analysis
+
+</span>
+
+
+<span id="urlCheck">
+
+Waiting
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="check">
+
+
+<span>
+
+📝 Form Detection
+
+</span>
+
+
+<span id="formCheck">
+
+Waiting
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+
+<div class="check">
+
+
+<span>
+
+🔍 Keyword Scan
+
+</span>
+
+
+<span id="keywordCheck">
+
+Waiting
+
+</span>
+
+
+</div>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+
+
+
+<!-- ==================================================
+     ACTION BUTTONS
+================================================== -->
+
+
+<button 
+id="scanBtn"
+aria-label="Start security scan">
+
+Start Security Scan
+
+</button>
+
+
+
+
+
+<button 
+id="reportBtn"
+aria-label="View security report">
+
+
+View Security Report
+
+
+</button>
+
+
+
+
+
+
+
+
+
+<!-- ==================================================
+     FOOTER
+================================================== -->
+
+
+<div class="footer">
+
+
+Last Scan:
+
+
+<span id="lastScan">
+
+Never
+
+</span>
+
+
+
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+<script src="popup.js"></script>
+
+
+</body>
+
+
+</html>
